@@ -1,11 +1,11 @@
 from rest_framework import generics
 from rest_framework import permissions
-#from rest_framework.viewsets import ReadOnlyModelViewSet
+
 from rest_framework.viewsets import ModelViewSet
 from vr.api.serializers import ProfileSerializer
 from vr.api.permissions import isProfileOwnerOrReadOnly
 from vr.models import Profile
-
+#from rest_framework.viewsets import ReadOnlyModelViewSet
 
 # class ProfileViewSet (ReadOnlyModelViewSet):
 #     queryset = Profile.objects.all()
